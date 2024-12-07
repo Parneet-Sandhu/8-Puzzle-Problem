@@ -47,7 +47,9 @@ Each step of the solution path is visualized using Matplotlib to show how the ti
 - **Visualization:** Displays the step-by-step solution in a series of grids.
 - **Textual Output:** If no solution exists, the program prints `No solution found.`
 
-![Screenshot 2024-12-07 181354](https://github.com/user-attachments/assets/666d1399-edf2-4964-acb6-6596520b7567)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/666d1399-edf2-4964-acb6-6596520b7567" alt="Screenshot 2024-12-07 181354">
+</div>
 
 ## Why BFS?
 - **Guarantees Shortest Path:** BFS explores all states level-by-level.
