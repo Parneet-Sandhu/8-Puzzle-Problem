@@ -37,15 +37,15 @@ BFS is used to find the shortest solution path:
 Each step of the solution path is visualized using Matplotlib to show how the tiles are rearranged until the goal state is achieved.
 
 ## Key Functions
-1. bfs_solve:
+1. `bfs_solve`:
 - Implements BFS to find the solution path.
 - Returns a list of states from the initial to the goal configuration.
-2. visualize_puzzle:
+2. `visualize_puzzle`:
 - Visualizes the solution path as a sequence of grids, showing how the tiles move.
 
 ## Output
 - **Visualization:** Displays the step-by-step solution in a series of grids.
-- **Textual Output:** If no solution exists, the program prints No solution found.
+- **Textual Output:** If no solution exists, the program prints `No solution found.`
 ## Why BFS?
 - **Guarantees Shortest Path:** BFS explores all states level-by-level.
 - **Complete:** Ensures that a solution is found if one exists.
